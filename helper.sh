@@ -35,7 +35,11 @@ setup()
    sudo -i <<END_OF_SETUP
 apt-get install flatpak-builder
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub org.freedesktop.Sdk//${SDK_VERSION} org.freedesktop.Platform//${SDK_VERSION} -y
+flatpak install flathub \
+   org.flatpak.Builder \
+   org.freedesktop.Sdk//${SDK_VERSION} \
+   org.freedesktop.Platform//${SDK_VERSION} \
+   -y
 END_OF_SETUP
    exit ${?}
 }
