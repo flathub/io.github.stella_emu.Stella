@@ -57,5 +57,8 @@
   <releases>
     <release version="6.7" date="2022-08-02"/>
   </releases>
+  <releases>
+    <release version="6.7.1" date="2024-01-27"/>
+  </releases>
 </component>
 
