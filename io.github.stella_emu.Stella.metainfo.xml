@@ -6,7 +6,10 @@
   <project_license>GPL-2.0</project_license>
   <name>Stella</name>
   <summary>Multi-platform Atari 2600 VCS emulator</summary>
-  <developer_name>The Stella Team</developer_name>
+  <developer id="io.github.stella_emu">
+    <name>The Stella Team</name>
+  </developer>
+  <launchable type="desktop-id">io.github.stella_emu.Stella.desktop</launchable>
   <description>
     <p>
       The Atari 2600 Video Computer System (VCS), introduced in 1977, was
