@@ -54,7 +54,12 @@
       <caption>Integrated Debugger</caption>
     </screenshot>
   </screenshots>
+  <url type="bugtracker">https://github.com/stella-emu/stella/issues</url>
+  <url type="contact">https://forums.atariage.com/forum/16-atari-2600/</url>
+  <url type="donation">https://stella-emu.github.io/donations.html</url>
+  <url type="faq">https://stella-emu.github.io/faq.html</url>
   <url type="homepage">https://stella-emu.github.io</url>
+  <url type="vcs-browser">https://example.org/repository</url>
   <update_contact>sa666666@gmail.com</update_contact>
   <content_rating type="oars-1.1"/>
   <releases>
